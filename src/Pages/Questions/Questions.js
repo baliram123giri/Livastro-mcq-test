@@ -104,7 +104,7 @@ export default memo(function Questions() {
             <span style={{ fontSize: 12 }}>
               {result?.length !== questions?.length ? (
                 <span className="text-danger">
-                  {questionLeft} out of {questions.length} are left
+                     {questions.length}  out of {questionLeft} are left
                 </span>
               ) : (
                 <span className="text-success">
